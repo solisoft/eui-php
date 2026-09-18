@@ -1,0 +1,6 @@
+/vendor/
+composer.lock
+.phpunit.result.cache
+# A publisher key: whoever holds it can publish as this application.
+*.pem
+config/eui_publisher.*

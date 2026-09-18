@@ -1,0 +1,24 @@
+{
+  "name": "solisoft/eui-php",
+  "description": "EUI applications in PHP: the wire format, the views, and the server that speaks them.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["eui", "protocol", "ui", "websocket", "binary"],
+  "homepage": "https://github.com/solisoft/eui-php",
+  "authors": [
+    { "name": "Olivier Bonnaure", "email": "olivier@solisoft.net" }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": { "EUI\\": "src/" }
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
